@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <link rel="icon" href="../assets/logo/Logo.jpg" type="logo"/>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0"
+    />
+    <link rel="icon" href="../assets/logo/Logo.jpg" type="logo" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
     <!-- Google Fonts Roboto -->
     <link
       rel="stylesheet"
@@ -18,304 +24,376 @@
     <!-- MDB -->
     <link rel="stylesheet" href="../css/mdb.min.css" />
     <title>Tecno Rick</title>
-</head>
-<body>
-        <header>
-            <!--Start Navbar-->
-            <nav>
-                <div class="navbar">
-                    <a href="#inicio"><img class="logo" src="../assets/logo/Logopng.png" alt="Logo_tecno-rick"></a>
-    
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="../pages/empresa.html">Nuestra Empresa</a></li>
-                        <li><a href="../pages/servicios.html">Servicio Técnico</a></li>
-                        <li><a href="../pages/contacto.html">Contacto</a></li>
-                    </ul>
+  </head>
+  <body>
+    <header>
+      <!--Start Navbar-->
+      <nav>
+        <div class="navbar">
+          <a href="#inicio"
+            ><img
+              class="logo"
+              src="../assets/logo/Logopng.png"
+              alt="Logo_tecno-rick"
+          /></a>
 
-                </div>
-            </nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/empresa.html">Nuestra Empresa</a></li>
+            <li><a href="../pages/servicios.html">Servicio Técnico</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
 
-            <!--End Navbar-->
+      <!--End Navbar-->
 
+      <!--Start Sidenav-->
+      <div id="sidenav" class="sidenav navbar" data-mdb-right="true">
+        <div class="imgSidenav">
+          <img
+            src="../assets/logo/Logopng.png"
+            alt="logo_tecno-rick"
+            loading="lazy"
+          />
+          <button
+            id="btnHamburguer"
+            class="btnVisible navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#collapseWidthExample"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="side-nav collapse collapse-horizontal"
+          id="collapseWidthExample"
+        >
+          <button
+            id="btnHamburguer"
+            class="btnVisible navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#collapseWidthExample"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 sidenav-menu">
+            <li class="nav-li nav-item">
+              <a class="nav-link active" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-li nav-item">
+              <a class="nav-link active" href="../pages/empresa.html"
+                >NUESTRA EMPRESA</a
+              >
+            </li>
+            <li class="nav-li nav-item">
+              <a class="nav-link active" href="../pages/servicios.html"
+                >SERVICIO TÉCNICO</a
+              >
+            </li>
+            <li class="nav-li nav-item">
+              <a class="nav-link active" href="../pages/contacto.html"
+                >CONTACTO</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--End Sidenav-->
+    </header>
 
-            <!--Start Sidenav-->
-            <div id="sidenav" class="sidenav navbar" data-mdb-right="true">
-                <div class="imgSidenav">
-                    <img
-                        src="../assets/logo/Logopng.png"
-                        alt="logo_tecno-rick"
-                        loading="lazy"
-                    />
-                    <button
-                    id="btnHamburguer"
-                    class="btnVisible navbar-toggler"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#collapseWidthExample"
-                    aria-expanded="false"
-                    aria-controls="collapseWidthExample"
-                    >
-                    <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-                <div class="side-nav collapse collapse-horizontal" id="collapseWidthExample" >
-                    <button
-                    id="btnHamburguer"
-                    class="btnVisible navbar-toggler"
-                    type="button"
-                    data-mdb-toggle="collapse"
-                    data-mdb-target="#collapseWidthExample"
-                    aria-expanded="false"
-                    aria-controls="collapseWidthExample"
-                    >
-                    <i class="fas fa-bars"></i>
-                    </button>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 sidenav-menu">
-                        <li class="nav-li nav-item">
-                            <a class="nav-link active" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="nav-li nav-item">
-                            <a class="nav-link active" href="../pages/empresa.html">NUESTRA EMPRESA</a>
-                        </li>
-                        <li class="nav-li nav-item">
-                            <a class="nav-link active" href="../pages/servicios.html">SERVICIO TÉCNICO</a>
-                        </li>
-                        <li class="nav-li nav-item">
-                            <a class="nav-link active" href="../pages/contacto.html">CONTACTO</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--End Sidenav-->
-        </header>
-
-            <!-- Background image -->
-            <div
-              class="p-5 text-center bg-image"
-              style="background-image: url('../assets/img/empresa1.jpg'); background-size: cover; background-repeat: no-repeat; height: 450px;">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.685);"></div>
-            </div>
-            <!-- Background image -->
+    <!-- Background image -->
+    <div
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url('../assets/img/empresa1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.685)"></div>
+    </div>
+    <!-- Background image -->
     <div id="inicio" class="container-fluid">
-
-            <!--Start Cards-->
-            <div class="contentCards">
-              <div class="cardEmpresa card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img
-                      src="../assets/img/tecnoRick.jpg"
-                      alt="Trendy Pants and Shoes"
-                      class="img-fluid rounded-start"
-                    />
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Nuestra Empresa</h5>
-                      <p class="card-text">
-                        Tecno Rick, es una empresa de dos amigos que se hicieron socios para crearla a fines del año 2018, con muchas capacitaciones para poder brindar una mano de obra especializada, a partir de la fecha, los clientes comenzaron a confiar en nuestra mano de obra. Contamos con una gran cantidad de vecinos de nuestro pueblo y aledaños que contratan nuestros servicios, desde hogares hasta empresas de gran magnitud. También realizamos el mantenimiento a las cámaras de videovigilancia de nuestro pueblo, a cargo de la Comuna de Correa.  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="cardEmpresa card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Videovigilancia</h5>
-                      <p class="card-text">
-                        Instalamos y vendemos todos los productos relacionados con sistemas de videovigilancia.
-                        Desde cámaras de seguridad en los hogares y grandes industrias hasta enlaces punto a punto para
-                        protección del pueblo/ciudad.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img
-                      src="../assets/img/videovigilancia.png"
-                      alt="Trendy Pants and Shoes"
-                      class="img-fluid rounded-start"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="cardEmpresa card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img
-                      src="../assets/img/proteccion.jpg"
-                      alt="Trendy Pants and Shoes"
-                      class="img-fluid rounded-start"
-                    />
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Alarmas</h5>
-                      <p class="card-text">
-                        Realizamos instalaciones y venta de alarmas para domicilios, oficinas, galpones, etc.
-                      </p>
-                      <p class="card-text">
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="cardEmpresa card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Venta de insumos a todo el país</h5>
-                      <p class="card-text">
-                        A través de nuestro sitio web, podrá acceder a nuestro catálogo de los diferentes productos que comercializamos y así, poder solicitar mediante nuestro formulario de contacto, presupuestos (tildando la opción presupuestos) y asesoramiento (tildando la opción consultas) para su hogar, oficina, deposito, etc. También puede hacerlo a través de nuestros números de Whatsapp.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img
-                      src="../assets/img/envios.jpg"
-                      alt="Trendy Pants and Shoes"
-                      class="img-fluid rounded-start"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="cardsMobile row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="../assets/img/tecnoRick.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
-                    <div class="card-body">
-                      <h5 class="card-title">Nuestra Empresa</h5>
-                      <p class="card-text">
-                        Tecno Rick, es una empresa de dos amigos que se hicieron socios para crearla a fines del año 2018, con muchas capacitaciones para poder brindar una mano de obra especializada, a partir de la fecha, los clientes comenzaron a confiar en nuestra mano de obra. Contamos con una gran cantidad de vecinos de nuestro pueblo y aledaños que contratan nuestros servicios, desde hogares hasta empresas de gran magnitud. También realizamos el mantenimiento a las cámaras de videovigilancia de nuestro pueblo, a cargo de la Comuna de Correa.  
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../assets/img/videovigilancia.png" class="card-img-top" alt="Palm Springs Road"/>
-                    <div class="card-body">
-                      <h5 class="card-title">Videovigilancia</h5>
-                      <p class="card-text">
-                        Instalamos y vendemos todos los productos relacionados con sistemas de videovigilancia.
-                        Desde cámaras de seguridad en los hogares y grandes industrias hasta enlaces punto a punto para
-                        protección del pueblo/ciudad.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../assets/img/proteccion.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
-                    <div class="card-body">
-                      <h5 class="card-title">Alarmas</h5>
-                      <p class="card-text">
-                        Realizamos instalaciones y venta de alarmas para domicilios, oficinas, galpones, etc.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../assets/img/envios.jpg" class="card-img-top" alt="Skyscrapers"/>
-                    <div class="card-body">
-                      <h5 class="card-title">Venta de insumos a todo el país</h5>
-                      <p class="card-text">
-                        A través de nuestro sitio web, podrá acceder a nuestro catálogo de los diferentes productos que comercializamos y así, poder solicitar mediante nuestro formulario de contacto, presupuestos (tildando la opción presupuestos) y asesoramiento (tildando la opción consultas) para su hogar, oficina, deposito, etc. También puede hacerlo a través de nuestros números de Whatsapp.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+      <!--Start Cards-->
+      <div class="contentCards">
+        <div class="cardEmpresa card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../assets/img/tecnoRick.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center">Nuestra Empresa</h5>
+                <p class="card-text">
+                  Tecno Rick, es una empresa de dos amigos que se hicieron
+                  socios para crearla a fines del año 2018, con muchas
+                  capacitaciones para poder brindar una mano de obra
+                  especializada, a partir de la fecha, los clientes comenzaron a
+                  confiar en nuestra mano de obra. Contamos con una gran
+                  cantidad de vecinos de nuestro pueblo y aledaños que contratan
+                  nuestros servicios, desde hogares hasta empresas de gran
+                  magnitud. También realizamos el mantenimiento a las cámaras de
+                  videovigilancia de nuestro pueblo, a cargo de la Comuna de
+                  Correa.
+                </p>
               </div>
             </div>
-
-
-            <!--End Cards-->
-          
-
-
-            <div id="whatsapp" class="visible">
-              <a href="https://wa.me/5493471416804" class="btn-wsp" target="_blank">
-              <i class="icon-whatsapp"></i>
-              <img src="../assets/icons/whatsapp.png" alt="logowsp">
-              </a>
           </div>
-          <div id="wsp" class="oculto">
-              <a href="https://wa.me/5493471416804" class="btn-wsp" target="_blank">
-              <i class="icon-whatsapp"></i>
-              <img src="../assets/icons/whattsapp.png" alt="logowsp">
-              </a>
-          </div>
+        </div>
 
+        <div class="cardEmpresa card mb-3">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center">Videovigilancia</h5>
+                <p class="card-text">
+                  Instalamos y vendemos todos los productos relacionados con
+                  sistemas de videovigilancia. Desde cámaras de seguridad en los
+                  hogares y grandes industrias hasta enlaces punto a punto para
+                  protección del pueblo/ciudad.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="../assets/img/videovigilancia.png"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="cardEmpresa card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="../assets/img/proteccion.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center">Alarmas</h5>
+                <p class="card-text">
+                  Realizamos instalaciones y venta de alarmas para domicilios,
+                  oficinas, galpones, etc.
+                </p>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardEmpresa card mb-3">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Venta de insumos a todo el país
+                </h5>
+                <p class="card-text">
+                  A través de nuestro sitio web, podrá acceder a nuestro
+                  catálogo de los diferentes productos que comercializamos y
+                  así, poder solicitar mediante nuestro formulario de contacto,
+                  presupuestos (tildando la opción presupuestos) y asesoramiento
+                  (tildando la opción consultas) para su hogar, oficina,
+                  deposito, etc. También puede hacerlo a través de nuestros
+                  números de Whatsapp.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="../assets/img/envios.jpg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="cardsMobile row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="../assets/img/tecnoRick.jpg"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nuestra Empresa</h5>
+                <p class="card-text">
+                  Tecno Rick, es una empresa de dos amigos que se hicieron
+                  socios para crearla a fines del año 2018, con muchas
+                  capacitaciones para poder brindar una mano de obra
+                  especializada, a partir de la fecha, los clientes comenzaron a
+                  confiar en nuestra mano de obra. Contamos con una gran
+                  cantidad de vecinos de nuestro pueblo y aledaños que contratan
+                  nuestros servicios, desde hogares hasta empresas de gran
+                  magnitud. También realizamos el mantenimiento a las cámaras de
+                  videovigilancia de nuestro pueblo, a cargo de la Comuna de
+                  Correa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="../assets/img/videovigilancia.png"
+                class="card-img-top"
+                alt="Palm Springs Road"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Videovigilancia</h5>
+                <p class="card-text">
+                  Instalamos y vendemos todos los productos relacionados con
+                  sistemas de videovigilancia. Desde cámaras de seguridad en los
+                  hogares y grandes industrias hasta enlaces punto a punto para
+                  protección del pueblo/ciudad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="../assets/img/proteccion.jpg"
+                class="card-img-top"
+                alt="Los Angeles Skyscrapers"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Alarmas</h5>
+                <p class="card-text">
+                  Realizamos instalaciones y venta de alarmas para domicilios,
+                  oficinas, galpones, etc.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="../assets/img/envios.jpg"
+                class="card-img-top"
+                alt="Skyscrapers"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Venta de insumos a todo el país</h5>
+                <p class="card-text">
+                  A través de nuestro sitio web, podrá acceder a nuestro
+                  catálogo de los diferentes productos que comercializamos y
+                  así, poder solicitar mediante nuestro formulario de contacto,
+                  presupuestos (tildando la opción presupuestos) y asesoramiento
+                  (tildando la opción consultas) para su hogar, oficina,
+                  deposito, etc. También puede hacerlo a través de nuestros
+                  números de Whatsapp.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--End Cards-->
+
+      <div id="whatsapp" class="visible">
+        <a href="https://wa.me/5493471416804" class="btn-wsp" target="_blank">
+          <i class="icon-whatsapp"></i>
+          <img src="../assets/icons/whatsapp.png" alt="logowsp" />
+        </a>
+      </div>
+      <div id="wsp" class="oculto">
+        <a href="https://wa.me/5493471416804" class="btn-wsp" target="_blank">
+          <i class="icon-whatsapp"></i>
+          <img src="../assets/icons/whattsapp.png" alt="logowsp" />
+        </a>
+      </div>
     </div>
 
+    <!--Start Footer-->
+    <footer
+      class="text-center text-white"
+      style="background-color: rgba(0, 0, 0, 0.2)"
+    >
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.facebook.com/tecno.rick.5"
+            role="button"
+            target="_blank"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i>
+          </a>
 
-            <!--Start Footer-->
-            <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
-                <!-- Grid container -->
-                <div class="container pt-4">
-                  <!-- Section: Social media -->
-                  <section class="mb-4">
-                        <!-- Facebook -->
-                        <a
-                        class="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="https://www.facebook.com/tecno.rick.5"
-                        role="button"
-                        target="_blank"
-                        data-mdb-ripple-color="dark"
-                        ><i class="fab fa-facebook-f"></i>
-                        </a>
-            
-                            <!-- Instagram -->
-                            <a
-                            class="btn btn-link btn-floating btn-lg text-dark m-1"
-                            href="https://www.instagram.com/tecno.rick/"
-                            role="button"
-                            target="_blank"
-                            data-mdb-ripple-color="dark"
-                            ><i class="fab fa-instagram"></i>
-                        </a>
-                    
-                        <!-- Google -->
-                        <a
-                        class="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="https://www.google.com/maps/place/Tecno+Rick/@-32.847709,-61.255055,15z/data=!4m5!3m4!1s0x0:0xd42209b42c6d7b92!8m2!3d-32.847709!4d-61.255055"
-                        role="button"
-                        target="_blank"
-                        data-mdb-ripple-color="dark"
-                        ><i class="fab fa-google"></i>
-                        </a>
-                
-                        <!-- Email -->
-                        <a
-                        class="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="mailto:tecnorickseguridad@hotmail.com"
-                        role="button"
-                        target="_blank"
-                        data-mdb-ripple-color="dark"
-                        ><i class="fas fa-envelope me-3"></i>
-                        </a>
-                  </section>
-                  <!-- Section: Social media -->
-                </div>
-                <!-- Grid container -->
-              
-                <!-- Copyright -->
-                <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                  © 2022 Copyright:
-                  <a class="text-dark" href="https://www.tecnorick.com.ar">Tecno Rick Seguridad</a>
-                </div>
-                <!-- Copyright -->
-              </footer>
-            <!--End Footer-->
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.instagram.com/tecno.rick/"
+            role="button"
+            target="_blank"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i>
+          </a>
 
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.google.com/maps/place/Tecno+Rick/@-32.847709,-61.255055,15z/data=!4m5!3m4!1s0x0:0xd42209b42c6d7b92!8m2!3d-32.847709!4d-61.255055"
+            role="button"
+            target="_blank"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i>
+          </a>
 
+          <!-- Email -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="mailto:tecnorickseguridad@hotmail.com"
+            role="button"
+            target="_blank"
+            data-mdb-ripple-color="dark"
+            ><i class="fas fa-envelope me-3"></i>
+          </a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center text-dark p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2022 Copyright:
+        <a
+          class="text-dark"
+          target="_blank"
+          href="http://www.mgsolutions.com.ar"
+          >MG Solutions</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--End Footer-->
 
     <script src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
@@ -323,5 +401,5 @@
     <script type="text/javascript" src="../js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
-</body>
+  </body>
 </html>
